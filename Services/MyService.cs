@@ -6,7 +6,7 @@ using System.Web.Http;
 
 namespace MVC_WebAPI_RPC.Services.Controllers
 {
-  public class MyServiceController : ApiController
+  public class MyApiController : ApiController
   {
     public string Get()
     {
