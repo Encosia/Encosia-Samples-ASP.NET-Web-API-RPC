@@ -33,8 +33,8 @@ namespace MVC_WebAPI_RPC
 
       routes.MapHttpRoute(
         name: "Services",
-        routeTemplate: "services/{controller}/{action}",
-        defaults: new { action = RouteParameter.Optional }
+        routeTemplate: "services/{controller}/{action}/{id}",
+        defaults: new { id = RouteParameter.Optional }
       );
 
       routes.MapRoute(
